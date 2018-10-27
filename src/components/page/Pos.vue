@@ -52,7 +52,7 @@
                 <el-tab-pane label="汉堡" >
                   <ul class='cookList'>
                     <li v-for="goods in type0Goods"    @click='addOrderList(goods)'>
-                      <span class="foodImg"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=985676048,3974832983&fm=200&gp=0.jpg" width="100%"></span>
+                      <span class="foodImg"><img src="../../assets/hanbao.jpg" width="100%"></span>
                       <span class="foodName">{{goods.goodsName}}</span>
                       <span class="foodPrice">￥{{goods.price}}元</span>
                     </li>
@@ -61,7 +61,7 @@
                   <el-tab-pane label="小食">
                   <ul class='cookList'>
                     <li v-for="goods in type1Goods"   @click='addOrderList(goods)'>
-                      <span class="foodImg"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=985676048,3974832983&fm=200&gp=0.jpg" width="100%"></span>
+                      <span class="foodImg"><img src="../../assets/hanbao.jpg" width="100%"></span>
                       <span class="foodName">{{goods.goodsName}}</span>
                       <span class="foodPrice">￥{{goods.price}}元</span>
                     </li>
@@ -70,7 +70,7 @@
                 <el-tab-pane label="饮料">
                   <ul class='cookList'>
                     <li v-for="goods in type2Goods"  @click='addOrderList(goods)'>
-                      <span class="foodImg"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=985676048,3974832983&fm=200&gp=0.jpg" width="100%"></span>
+                      <span class="foodImg"><img src="../../assets/hanbao.jpg" width="100%"></span>
                       <span class="foodName">{{goods.goodsName}}</span>
                       <span class="foodPrice">￥{{goods.price}}元</span>
                     </li>
@@ -79,7 +79,7 @@
                 <el-tab-pane label="套餐">
                   <ul class='cookList'>
                     <li v-for="goods in type3Goods" @click='addOrderList(goods)'>
-                      <span class="foodImg"><img src="https://ss3.bdstatic.com/70cFv8Sh_Q1YnxGkpoWK1HF6hhy/it/u=985676048,3974832983&fm=200&gp=0.jpg" width="100%"></span>
+                      <span class="foodImg"><img src="../../assets/hanbao.jpg" width="100%"></span>
                       <span class="foodName">{{goods.goodsName}}</span>
                       <span class="foodPrice">￥{{goods.price}}元</span>
                     </li>

@@ -1,13 +1,17 @@
 <template>
   <div class="left-nav">
     <ul>
-      <li>
+      <li >
+       <!--  <router-link to="./page/Pos"> -->
         <i class="icon iconfont icon-goumai"></i>
         <div>收银</div>
+        <!-- </router-link> -->
       </li>
       <li>
+        <!-- <router-link to="./page/HelloWorld"> -->
         <i class="icon iconfont icon-dianpu"></i>
         <div>店铺</div>
+        <!-- </router-link> -->
       </li>
       <li>
         <i class="icon iconfont icon-hanbao"></i>
